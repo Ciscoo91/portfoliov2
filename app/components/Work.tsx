@@ -8,7 +8,7 @@ const Work = () => {
             <Container>
             <div className=" flex flex-col items-start justify-between mx-auto mb-12 p-4 h-full" id="work">
                 <h4 className="text-4xl text-slate-800 dark:text-white">My Work</h4>
-                <p className="text-slate-800 dark:text-white">I've been busy past few years, working on some of the best projects. Here's a Glimpse!</p>
+                <p className="text-slate-800 dark:text-white">I&apos;ve been busy past few years, working on some of the best projects. Here&apos;s a Glimpse!</p>
             </div>
             <div className="max-w-screen-xl flex flex-col md:grid gap-8 md:grid-cols-3 grid-rows-auto">
                 {data.map( ({id, title, imageUrl, description}) => (

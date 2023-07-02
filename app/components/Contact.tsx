@@ -16,7 +16,7 @@ const Contact = () => {
                     <div className="h-full py-8 flex flex-col justify-between">
                         <form className="grid grid-cols-1 gap-y-4">
                             <h4 className="text-4xl">Work With Me!</h4>
-                            <p>Let's Connect and Discuss your WebDesign Project Today!</p>
+                            <p>Let&apos;s Connect and Discuss your WebDesign Project Today!</p>
                             <div className="grid grid-cols-3 w-1/2 ">
                                 <a href=""><Image className="w-8 mx-0" src={TwitterIcon} alt="" /></a>
                                 <a href=""><Image  className="w-8" src={GithubIcon} alt="" /></a>

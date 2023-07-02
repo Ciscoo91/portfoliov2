@@ -26,6 +26,7 @@ const Footer = () => {
                         initial={{opacity: 0, y: 50}}
                         whileInView={{opacity: 1, y: 0}}
                         viewport={{once: true}}
+                        key={index}
                     >
                         <h4 className="text-3xl mb-4">{item.title}</h4>
                         <p>{item.text}</p>

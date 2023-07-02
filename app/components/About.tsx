@@ -16,7 +16,7 @@ const About = () => {
                 >
                     <div className="h-full py-8 flex flex-col justify-between">
                         <p className=" my-4 text-slate-800">Hello There 👋🏾</p>
-                        <h1 className="text-2xl mb-4 tracking-wide text-slate-800">My name is Francisco, I'm a Web Developper with a strong sens of Humor and creative expertise!</h1>
+                        <h1 className="text-2xl mb-4 tracking-wide text-slate-800">My name is Francisco, I&apos;m a Web Developper with a strong sens of Humor and creative expertise!</h1>
                         <p className="leading-9 text-md mb-4 text-slate-800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eligendi obcaecati iure deleniti maiores magni rem excepturi ut, dignissimos deserunt hic harum eum. Ea, exercitationem? Ea modi omnis deserunt porro.</p>
                         <div className="">
                             <button className="py-4 px-8 font-semibold border-2 border-slate-800 text-white rounded-sm bg-slate-800 ">My Story </button>
