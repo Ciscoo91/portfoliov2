@@ -18,11 +18,11 @@ const Contact = () => {
                             <h4 className="text-4xl">Work With Me!</h4>
                             <p>Let&apos;s Connect and Discuss your WebDesign Project Today!</p>
                             <div className="grid grid-cols-3 w-1/2 ">
-                                <a href=""><Image className="w-8 mx-0" src={TwitterIcon} alt="" /></a>
-                                <a href=""><Image  className="w-8" src={GithubIcon} alt="" /></a>
-                                <a href=""><Image  className="w-8" src={LinkedInIcon} alt="" /></a>
+                                <a href="https://twitter.com/Francisco_Mambo"><Image className="w-8 mx-0" src={TwitterIcon} alt="" /></a>
+                                <a href="https://github.com/Ciscoo91"><Image  className="w-8" src={GithubIcon} alt="" /></a>
+                                <a href="https://www.linkedin.com/in/francisco-mambo/"><Image  className="w-8" src={LinkedInIcon} alt="" /></a>
                             </div>
-                            <div className="grid grid-cols-2 gap-6 grid-rows-auto ">
+                            <div className="grid grid-cols-2 gap-6 grid-rows-auto">
                                 <input type="text" name="" id="" placeholder="Name" className="p-4 text-slate-800 rounded-xl bg-white dark:bg-slate-200 " />
                                 <input type="text" name="" id="" placeholder="Name" className="p-4 text-slate-800 rounded-xl bg-white dark:bg-slate-200 " />
                                 <input type="email" name="" id="" placeholder="Email" className="p-4 text-slate-800 rounded-xl bg-white dark:bg-slate-200"/>

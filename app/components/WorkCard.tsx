@@ -6,10 +6,11 @@ type WorkCardProps = {
     id: number,
     title: string,
     image: string,
-    description: string
+    description: string,
+    link: string
 }
 
-const WorkCard = ({title, image, id, description}: WorkCardProps) => {
+const WorkCard = ({title, image, id, description, link}: WorkCardProps) => {
     return (
         <motion.div 
             className="p-6 bg-orange-50 dark:bg-slate-500 my-4 flex flex-col justify-between rounded-lg"
@@ -22,7 +23,7 @@ const WorkCard = ({title, image, id, description}: WorkCardProps) => {
             </div>
             <h4 className=" dark:text-black my-4 text-slate-800 dark:text-white">{title}</h4>
             <p className="text-slate-800 my-4 dark:text-white">{description}</p>
-            <Link href={`/work/${id}`} className="py-4 px-8 font-semibold border-2 border-slate-800 text-white rounded-sm bg-slate-800 self-start">View Project</Link>
+            <Link href={{pathname: `/work/${id}`}} className="py-4 px-8 font-semibold border-2 border-slate-800 text-white rounded-sm bg-slate-800 self-start">View Project</Link>
         </motion.div>
     );
 }

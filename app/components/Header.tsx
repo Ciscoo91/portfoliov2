@@ -3,7 +3,6 @@
 import {Link} from "react-scroll"
 import { useCycle, AnimatePresence } from "framer-motion";
 import SideMenu from "./SideMenu";
-// import Burger from "@/components/Burger"
 import { useState } from "react";
 
 const Header = () => {
