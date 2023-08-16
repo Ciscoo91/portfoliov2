@@ -1,6 +1,6 @@
+"use client"
 import Image from "next/image"
 import PortfolioPic from "@/assets/portfolio-pic.png"
-import arrowIcon from "@/assets/arrow_forward_icon.svg"
 import Container from "@/components/Container"
 import {motion} from "framer-motion"
 

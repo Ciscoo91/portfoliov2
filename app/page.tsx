@@ -1,5 +1,3 @@
-"use client"
-
 import About from "@/components/About"
 import Work from "@/components/Work"
 import Contact from "@/components/Contact"

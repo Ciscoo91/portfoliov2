@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link"
 import {motion} from "framer-motion"
 // import arrowIcon from "@/assets/arrow_forward_icon.svg"
@@ -6,7 +7,7 @@ type WorkCardProps = {
     id: number,
     title: string,
     image: string,
-    description: string,
+    description: string | null,
     link: string
 }
 
