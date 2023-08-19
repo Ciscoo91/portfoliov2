@@ -1,5 +1,6 @@
 import { MouseEventHandler } from "react"
-import {Link} from "react-scroll"
+// import {Link} from "react-scroll"
+import Link from "next/link"
 import {motion, AnimatePresence, Cycle} from "framer-motion"
 
 type MenuToggleProps = {
@@ -33,9 +34,9 @@ const sideVariants = {
 
 const links = [
   { name: "Home", to: "home", id: 1 },
-  { name: "About", to: "about", id: 2 },
-  { name: "Work", to: "work", id: 3 },
-  { name: "Contact", to: "contact", id: 4 }
+  { name: "About", to: "#about", id: 2 },
+  { name: "Work", to: "#work", id: 3 },
+  { name: "Contact", to: "#contact", id: 4 }
 ];
 
 const SideMenu = ({open, setOpen}: MenuToggleProps) => {
@@ -68,7 +69,7 @@ const SideMenu = ({open, setOpen}: MenuToggleProps) => {
                   onClick={setOpen}
                   className="text-white text-xl"
                 >
-                    <Link to={to} smooth={true} onClick={() => setOpen}>
+                    <Link href={to} onClick={() => setOpen}>
                         <span onClick={setOpen}>{name}</span>
                     </Link>
                 </motion.li>

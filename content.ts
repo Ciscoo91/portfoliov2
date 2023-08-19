@@ -39,7 +39,7 @@ export const data = [
         id: 6,
         title: "Devjobs-web-app",
         description: "Application web de référencement d'offres d'emploi est conçue pour simplifier le processus de recherche d'emploi. Grâce à une interface intuitive et conviviale, les utilisateurs peuvent facilement parcourir les offres d'emploi disponibles, filtrer les résultats en fonction de leurs préférences et postuler en quelques clics.",
-        link: "https://maison-sante-rennes-sud.fr/",
+        link: "https://lambent-pegasus-4174dd.netlify.app/",
         imageUrl: "https://exmkxvbkqczaqzqhsnoy.supabase.co/storage/v1/object/sign/assets/devjobs-web-app.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJhc3NldHMvZGV2am9icy13ZWItYXBwLnBuZyIsImlhdCI6MTY4ODM0NDc2MiwiZXhwIjoxNzE5ODgwNzYyfQ.mJozB2vVaQ7wJt-5eaSKYfuhCWvvNWQceNUgOrKswfQ&t=2023-07-03T00%3A39%3A22.116Z",
     },
 ];
