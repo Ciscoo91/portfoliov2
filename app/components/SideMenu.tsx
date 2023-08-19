@@ -33,10 +33,10 @@ const sideVariants = {
 };
 
 const links = [
-  { name: "Home", to: "home", id: 1 },
-  { name: "About", to: "#about", id: 2 },
-  { name: "Work", to: "#work", id: 3 },
-  { name: "Contact", to: "#contact", id: 4 }
+  { name: "Home", to: "/", id: 1 },
+  { name: "About", to: "/#about", id: 2 },
+  { name: "Work", to: "/#work", id: 3 },
+  { name: "Contact", to: "/#contact", id: 4 }
 ];
 
 const SideMenu = ({open, setOpen}: MenuToggleProps) => {

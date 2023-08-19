@@ -8,7 +8,7 @@ const WorkDetails = async ({
 }:{ params: {id: string}}) => {
 
     const {content} = await getWorkById(parseInt(params.id))
-    
+    console.log(content)
     return (
         <main className="bg-orange-50 dark:bg-slate-400 flex min-h-screen flex-col items-center justify-between">
             <Container extraClasses="flex flex-col items-center">

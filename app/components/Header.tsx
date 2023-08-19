@@ -13,9 +13,9 @@ const Header = () => {
     return ( 
         <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-palette-lightDark  dark:bg-slate-800 dark:border-palette-blue">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" id="home">
-                <Link href="download/curriculum" className="flex items-center">
+                <a href="/" className="flex items-center">
                     <span className="self-center text-2xl font-semibold whitespace-nowrap text-slate-800 dark:text-white">FM</span>
-                </Link>
+                </a>
                 <div className="flex md:order-2">
                     <a href="" type="button" className="hidden md:block text-white bg-slate-800 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-slate-800 dark:focus:ring-blue-800">Dowload CV</a>
                     <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false"
